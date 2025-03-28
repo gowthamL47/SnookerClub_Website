@@ -18,6 +18,7 @@
     rel="stylesheet">
 </head>
 
+
 <body>
   <nav>
     <div class="container nav__container">
@@ -44,8 +45,8 @@
       <h1>Table Reservations</h1>
       <p>Select a date and time to reserve a snooker table:</p>
       <form id="reservationForm">
-        <div class="form-group">
-          <label for="name">Your Name:</label>
+        <div style="margin-left: 14px;" class="form-group">
+          <label for="name">Name:</label>
           <input type="text" id="name" name="name" required style="margin-right: 20px;">
         </div>
 
@@ -54,17 +55,17 @@
           <input type="text" id="email" name="email" required>
         </div>
 
-        <div class="form-group">
+        <div style="margin-right: 45px;" class="form-group">
           <label for="date">Date:</label>
           <input type="date" id="date" name="date" required>
         </div>
 
-        <div class="form-group">
+        <div style="margin-right: 64px;" class="form-group">
           <label for="time">Time:</label>
           <input type="time" id="time" name="time" required>
         </div>
 
-        <button type="submit" class="btn btn-primary">Reserve Table</button>
+        <button style="margin-top: 7px;" type="submit" class="btn btn-primary">Reserve Table</button>
       </form>
     </div>
   </section>

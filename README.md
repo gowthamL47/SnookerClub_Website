@@ -80,6 +80,4 @@ For any queries, reach out to:
 - **Email**: gowthamhell07@gmail.com
 - **LinkedIn**: [Gowtham L](https://www.linkedin.com/in/gowtham-l-026153308)
 
----
-Feel free to modify this README to better fit your project’s needs! 🚀
 

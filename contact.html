@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Snooker Club</title>
+  <link rel="stylesheet" href=" ./CSS/style.css">
+  <script src="script.js"></script>
+
+  <!-- ICONSCOUT CDN-->
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+  <!-- GOOGLE FONTS (MONTSERRAT)-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div class="container nav__container">
+        <a href="index.html">
+            <h4>SNOOKER CLUB</h4>
+        </a>
+        <ul class="nav__menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="tournaments.html">Tournaments</a></li>
+            <li><a href="community.html">Community Forum</a></li>
+            <li><a href="coaching resources.html">Coaching Resources</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <button id="open-menu-btn"> <i class="uil uil-bars"></i> </button>
+        <button id="close-menu-btn"> <i class="uil uil-multiply"></i> </button>
+    </div>
+</nav>
+
+<section class="contact-container" style="margin-top: 159px;margin-bottom: 159px;">
+    <div class="contact-info" style=" color: #f0eaea;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    background: #424890;">
+        <h2 style="margin-bottom: 2rem; margin-top: 50px">Get in Touch</h2>
+        <p style=" padding-left: 60px;"><strong>Address:</strong> 123 Snooker Street, City, Country</p>
+        <p style=" padding-left: 60px;"><strong>Phone:</strong> 9344163185</p>
+        <p style=" padding-left: 60px;"><strong>Email:</strong> gowthamhell07@gmail.com</p>
+    </div>
+    
+    <div ng-app="contactApp" ng-controller="ContactController" class="contact-form" style="color: #f0eaea;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    background: #424890;">
+        <h2 style=" color:white;margin-bottom: 2rem;">Send Us a Message</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" ng-submit="submitForm()" name="contactForm" style="display: flex; flex-direction: column;">
+            <input type="hidden" name="access_key" value="5e84d5cf-7685-4e3f-910a-9ebeef12c6db">
+        <!-- <form id="contactForm" ng-submit="submitForm()" name="contactForm" style="display: flex; flex-direction: column;"> -->
+
+            <input type="text" name="name" placeholder="Your Name" required style="margin-bottom: 10px; padding: 8px;">
+            <input type="email" name="email" placeholder="Your Email" required style="margin-bottom: 10px; padding: 8px;">
+            <textarea name="message" placeholder="Your Message" required style="margin-bottom: 10px; padding: 8px;"></textarea>
+            <button type="submit" style="background-color: #28a745; color: white; padding: 10px; border: none; cursor: pointer;">Send Message</button>
+            <div id="customAlert" class="custom-alert">
+                <span id="alertMessage"></span>
+            </div>
+        </form>
+    </div>
+</section>
+
+  <footer class="footer">
+    <div class="container footer__container ">
+        <div class="footer__1">
+            <a href="index.html" class="footer__logo">
+                <h4>The Que Club</h4>
+            </a>
+            <P>
+                Experience world-class snooker at our state-of-the-art club.            </P>
+        </div>
+
+        <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="membership.html">Membership</a></li>
+              <li><a href="reservation.html">Reservations</a></li>
+              <li><a href="tournaments.html">Tournaments</a></li>
+              <li><a href="community.html">Community Forum</a></li>
+              <li><a href="coaching resources.html">Coaching Resources</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__3">
+            <h4>Primacy</h4>
+            <ul class="privacy">
+                <li><a href="#"> Privacy policy</a></li>
+                <li><a href="#"> Terms and conditions</a></li>
+                <li><a href="#"> Refund Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__4">
+            <h4>Contact us</h4>
+            <div>
+                <p>9344163185</p>
+                <p>gowthamhell07@gamil.com</p>
+            </div>
+
+            <ul class="footer__socials">
+                <li>
+                    <a href="https://web.whatsapp.com/"> <i class="uil uil-whatsapp"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/share/12GPHj3zDsD/?mibextid=qi2Omg"> <i class="uil uil-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/gowthamhell_21?igsh=d3dmYWdqeGM5NXY4"> <i class="uil-instagram-alt"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/gowtham-l-026153308"> <i class="uil uil-linkedin-alt"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        <small> Copyright &copy; The Que Club</small>
+    </div>
+</footer>
+</body>
+</html>
+

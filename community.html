@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Forum - Snooker Club</title>
+  <link rel="stylesheet" href=" ./CSS/style.css">
+  <script src="community.js"></script>
+
+  <!-- ICONSCOUT CDN-->
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+
+
+  <!-- GOOGLE FONTS (MONTSERRAT)-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap"
+    rel="stylesheet">
+</head>
+<style>
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #2e3267;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  color:white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color:lightblue;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Adjust form position above footer */
+#community .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 80vh;
+}
+
+
+</style>
+
+
+
+<body>
+  <nav>
+    <div class="container nav__container">
+        <a href="index.html">
+            <h4>SNOOKER CLUB</h4>
+        </a>
+        <ul class="nav__menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="tournaments.html">Tournaments</a></li>
+            <li><a href="community.html">Community Forum</a></li>
+            <li><a href="coaching resources.html">Coaching Resources</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+        <button id="open-menu-btn"> <i class="uil uil-bars"></i> </button>
+        <button id="close-menu-btn"> <i class="uil uil-multiply"></i> </button>
+    </div>
+</nav>
+
+  <section id="community">
+    <div class="container">
+      <h1>Community Forum</h1>
+      <div class="forum-posts">
+        <div class="article">
+          <h2>Question about snooker techniques</h2>
+          <p>Posted by: John Doe</p>
+          <p>I'm looking to improve my snooker skills, especially when it comes to cue ball control and positioning. What are some effective techniques for practicing cue ball control, and how can I enhance my shot accuracy? Any tips for improving overall gameplay would be greatly appreciated!.</p>
+          <a href="contact.html" class="btn btn-primary">Reply</a>
+        </div>
+        <div class="article">
+          <h2>Looking for snooker partner</h2>
+          <p>Posted by: Jane Smith</p>
+          <p>Hi everyone, I’ve been playing snooker for a while, but I’m struggling with consistency in my shots. I often miss easy pots and have difficulty controlling the cue ball. Are there any specific drills or tips to improve my accuracy and positioning? I’d also love any advice on reading angles better. Looking forward to your suggestions!</p>
+          <a href="contact.html" class="btn btn-primary">Reply</a>
+        </div>
+      </div>
+
+
+      <!-- <form>
+        <h2>Post a New Question</h2>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="question">Question:</label>
+          <textarea id="question" name="question" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Post</button>
+      </form> -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__container ">
+        <div class="footer__1">
+            <a href="index.html" class="footer__logo">
+                <h4>The Que Club</h4>
+            </a>
+            <P>
+              Experience world-class snooker at our state-of-the-art club.
+            </P>
+        </div>
+
+        <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="membership.html">Membership</a></li>
+              <li><a href="reservation.html">Reservations</a></li>
+              <li><a href="tournaments.html">Tournaments</a></li>
+              <li><a href="community.html">Community Forum</a></li>
+              <li><a href="coaching resources.html">Coaching Resources</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__3">
+            <h4>Primacy</h4>
+            <ul class="privacy">
+                <li><a href="#"> Privacy policy</a></li>
+                <li><a href="#"> Terms and conditions</a></li>
+                <li><a href="#"> Refund Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__4">
+            <h4>Conatct us</h4>
+            <div>
+              <p>9344163185</p>
+              <p>gowthamhell07@gmail.com</p>
+            </div>
+
+            <ul class="footer__socials">
+              <li>
+                  <a href="https://web.whatsapp.com/"> <i class="uil uil-whatsapp"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.facebook.com/share/12GPHj3zDsD/?mibextid=qi2Omg"> <i class="uil uil-facebook-f"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com/gowthamhell_21?igsh=d3dmYWdqeGM5NXY4"> <i class="uil-instagram-alt"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.linkedin.com/in/gowtham-l-026153308"> <i class="uil uil-linkedin-alt"></i></a>
+              </li>
+          </ul>
+        </div>
+
+
+    </div>
+    <div class="footer__copyright">
+        <small> Copyright &copy; The Que Club</small>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
